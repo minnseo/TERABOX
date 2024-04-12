@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*----------전체 레이아웃----------*/
+#main{
+	width:100%;
+	margin:0 auto;
+	font-size:10pt;
+	font-family:"맑은 고딕";
+}
+#main_body{
+	min-height: 500px;
+}
+#main_footer{
+	clear:both;
+	background-color: #f8f8fa;
+	margin-top:100px;
+}
+a:link{
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	text-decoration: none;
+	color: #999999;
+}
+/*----------좌측 메뉴 레이아웃 (Admin, MyPage)----------*/
+
+/*----------페이지 기본 레이아웃----------*/
+.page-main{
+	width:75%;
+	margin:0 auto;
+}
+.page-one{
+	width:600px;
+	margin:0 auto;
+}
+/*----------공통 메시지 및 버튼----------*/
+
+/*----------공통 정렬----------*/
+.align-center{
+	text-align: center;
+}
+.align-right{
+	text-align: right;
+}
