@@ -33,6 +33,67 @@ a:hover{
 	text-decoration: none;
 	color: #999999;
 }
+
+
+/*---------- 상단 링크 레이아웃 -----------*/
+hr{
+	margin:0;
+}
+.page-util {
+    display: block;
+    position: static;
+    width: 100%;
+    height: 42px;
+    background-color: #f8f8fa;
+}
+.page-util .location {
+    float: left;
+    height: 42px;
+    margin-left:190px;
+}
+.page-util .location span {
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 13px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-location-home.png) no-repeat center;
+} 
+.page-util .location a {
+    display: block;
+    position: relative;
+    float: left;
+    height: 42px;
+    margin: 0 0 0 25px;
+    padding: 0;
+    line-height: 46px;
+    color: #666;
+}
+.page-util .location a:before, .page-util .location span.no-link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -14px;
+    top: 0;
+    width: 5px;
+    height: 42px;
+    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-location-arr.png) no-repeat left center;
+}
+.page-util.fixed {
+    position: fixed;
+    left: 0;
+    right: inherit;
+    top: 0;
+    z-index: 51;
+    background-color: #444;
+}
+.page-util.fixed .location a {
+    color: #fff;
+}
+
 /*----------좌측 메뉴 레이아웃 (Admin, MyPage)----------*/
 
 /*----------페이지 기본 레이아웃----------*/
@@ -44,7 +105,13 @@ a:hover{
 	width:600px;
 	margin:0 auto;
 }
+.title{
+	padding:25px 0;
+	font-size:27px;
+}
+
 /*----------공통 메시지 및 버튼----------*/
+
 
 /*----------공통 정렬----------*/
 .align-center{
@@ -53,6 +120,8 @@ a:hover{
 .align-right{
 	text-align: right;
 }
+
+
 /*----------상단 메뉴----------*/
 
 div#main_menu ul{
@@ -129,7 +198,7 @@ div#main_menu ul li{
 	display: none;
 	position: absolute;
 	left: 0;
-	top: 116px;
+	top: 90px;
 	height: 42px;
 	background-color: #4c4177;
 	background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
