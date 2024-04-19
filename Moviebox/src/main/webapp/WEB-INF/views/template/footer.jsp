@@ -6,7 +6,7 @@
 	<footer>
 	<div class="footer-bottom">
 		<div class="footer-img">
-			<img src="${pageContext.request.contextPath}/images/logo_b.png" width="160">
+			<img src="${pageContext.request.contextPath}/images/logo2.png" width="160">
 		</div>
 		<div class="footer-wrap">
 			<p>고객센터 1004-1004 | AM 09:00 - PM 18:00 (주말, 공휴일 휴무)</p>
