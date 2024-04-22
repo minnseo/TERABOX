@@ -111,7 +111,32 @@ hr{
 }
 
 /*----------공통 메시지 및 버튼----------*/
-
+.result-display{
+	width:400px;
+	height:200px;
+	margin:50px auto;
+	border:1px solid #000;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.error-color{
+	color:#ff0000;
+}
+.default-btn{
+	padding:5px 20px;
+	border:1px solid #09aa5c;
+	border-radius:2px;
+	color:#fff;
+	background-color:#09aa5c;
+	font-weight:bold;
+	cursor:pointer;
+}
+.default-btn:hover{
+	background-color:#fff;
+	color:#09aa5c;
+	transition:0.2s ease-out; /*부드럽게 전환처리*/
+}
 
 /*----------공통 정렬----------*/
 .align-center{
