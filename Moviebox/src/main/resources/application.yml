@@ -10,7 +10,7 @@ spring:
     
   datasource: #DB접속 설정
     driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@localhost:3306:xe
+    url: jdbc:oracle:thin:@localhost:1521:xe
     username: c##user002
     password: 1234
     hikari:
