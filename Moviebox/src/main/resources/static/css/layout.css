@@ -36,65 +36,10 @@ a:hover{
 
 
 /*---------- 상단 링크 레이아웃 -----------*/
-hr{
-	margin:0;
-}
-.page-util {
-    display: block;
-    position: static;
-    width: 100%;
-    height: 42px;
-    background-color: #f8f8fa;
-}
-.page-util .location {
-    float: left;
-    height: 42px;
-    margin-left:190px;
-}
-.page-util .location span {
-    overflow: hidden;
-    display: block;
-    float: left;
-    width: 13px;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    text-indent: -9999px;
-    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-location-home.png) no-repeat center;
-} 
-.page-util .location a {
-    display: block;
-    position: relative;
-    float: left;
-    height: 42px;
-    margin: 0 0 0 25px;
-    padding: 0;
-    line-height: 46px;
-    color: #666;
-}
-.page-util .location a:before, .page-util .location span.no-link:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: -14px;
-    top: 0;
-    width: 5px;
-    height: 42px;
-    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-location-arr.png) no-repeat left center;
-}
-.page-util.fixed {
-    position: fixed;
-    left: 0;
-    right: inherit;
-    top: 0;
-    z-index: 51;
-    background-color: #444;
-}
-.page-util.fixed .location a {
-    color: #fff;
-}
+
 
 /*----------좌측 메뉴 레이아웃 (Admin, MyPage)----------*/
+
 
 /*----------페이지 기본 레이아웃----------*/
 .page-main{
@@ -105,38 +50,9 @@ hr{
 	width:600px;
 	margin:0 auto;
 }
-.title{
-	padding:25px 0;
-	font-size:27px;
-}
 
 /*----------공통 메시지 및 버튼----------*/
-.result-display{
-	width:400px;
-	height:200px;
-	margin:50px auto;
-	border:1px solid #000;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-}
-.error-color{
-	color:#ff0000;
-}
-.default-btn{
-	padding:5px 20px;
-	border:1px solid #09aa5c;
-	border-radius:2px;
-	color:#fff;
-	background-color:#09aa5c;
-	font-weight:bold;
-	cursor:pointer;
-}
-.default-btn:hover{
-	background-color:#fff;
-	color:#09aa5c;
-	transition:0.2s ease-out; /*부드럽게 전환처리*/
-}
+
 
 /*----------공통 정렬----------*/
 .align-center{
@@ -149,16 +65,8 @@ hr{
 
 /*----------상단 메뉴----------*/
 
-div#main_menu ul{
-	list-style:none;
-}
-div#main_menu ul li{
-	margin-bottom:5px;
-}
-
 
 /*----------헤더----------*/
-
 #top_left, #top_right{
 	height:35px;
 }
@@ -193,21 +101,20 @@ div#main_menu ul li{
 	font-size: 18px;
 	color: black;
 	font-weight: bold;
-	text-align: center; /* 추가: 가운데 정렬을 위한 텍스트 가운데 정렬 설정 */
+	text-align: center; /* 가운데 정렬을 위한 텍스트 가운데 정렬 설정 */
 }
 .gnb>li ul {
 	display: none;
 	position: absolute;
 	z-index: 11;
 	margin: 0 auto;
-	text-align: left; /* 추가: 하위 메뉴 텍스트 왼쪽 정렬 설정 */
+	text-align: left; /* 하위 메뉴 텍스트 왼쪽 정렬 설정 */
 
 }
 .gnb>li ul li {
 	float: left;
-	
-	left: 50%; /* 추가: 가운데 정렬을 위해 왼쪽 위치를 50%로 설정 */
-	transform: translateX(-90%); /* 추가: 가운데 정렬을 위해 왼쪽으로 50%만큼 이동 */
+	left: 50%; /* 가운데 정렬을 위해 왼쪽 위치를 50%로 설정 */
+	transform: translateX(-90%);
 }
 .gnb>li ul li a {
 	display: block;
@@ -269,7 +176,6 @@ div#main_menu ul li{
 
 
 /*----------푸터----------*/
-
 footer{
 	margin:0 auto;
 	height:250px;
@@ -292,29 +198,3 @@ footer{
 
 
 /*----------공통 등록,수정 폼----------*/
-form{
-	width:600px;
-	margin:0 auto;
-	border:1px solid #000;
-	padding:10px 10px 30px 10px;
-}
-form ul li{
-	clear:both;
-}
-form ul li label{
-	width:100px;
-	float:left;
-}
-ul{
-	list-style:none;
-}
-input{
-	margin-top:4px;
-	padding:5px;
-}
-input[type="text"],input[type="password"],input[type="email"]{
-	width:350px;
-}
-button[type="submit"]{
-	height:31px;
-}

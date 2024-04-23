@@ -10,8 +10,8 @@
 		</div>
 		<div class="footer-wrap">
 			<p>고객센터 1004-1004 | AM 09:00 - PM 18:00 (주말, 공휴일 휴무)</p>
-			<p>대표자 김무비 | 사업자등록번호 123-45-67890 | 서울특별시 강남구 가로수길 5</p>
-			<p>COPYRIGHT &copy; MOVIEBOX. All rights reserved.</p>
+			<p>대표자 한영화 | 사업자등록번호 123-45-67890 | 서울특별시 강남구 가로수길 5</p>
+			<p>COPYRIGHT &copy; TERABOX. All rights reserved.</p>
 		</div>
     </div>
     </footer>

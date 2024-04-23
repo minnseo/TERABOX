@@ -2,14 +2,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <script type="text/javascript">
 <!-- 상단 고정 메뉴 (스크롤 이벤트) -->
-$(window).on("scroll",function(){
-	 // 윈도우의 스크롤 위치가 100px 이상일 때
-    if( $(window).scrollTop() > 100){
-      $(".page-util").addClass("fixed"); // 해당 요소에 fixed 클래스를 추가 -> 고정 위치로 변경
-    }else { // 스크롤 위치가 100px 미만일 때
-      $(".page-util").removeClass("fixed"); // fixed 클래스를 제거 -> 원래 위치로 복구
-    }
-  });
 
 <!-- 서브 메뉴 show / hide -->
 $(document).ready(function() {
