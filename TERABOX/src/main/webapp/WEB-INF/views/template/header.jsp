@@ -2,7 +2,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <script type="text/javascript">
 <!-- 상단 고정 메뉴 (스크롤 이벤트) -->
-
 <!-- 서브 메뉴 show / hide -->
 $(document).ready(function() {
 	// 마우스를 메뉴 항목 위로 올리거나 포커스가 들어올 때  
