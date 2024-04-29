@@ -5,3 +5,28 @@
 .owl-carousel {
 	position: relative;
 }
+
+.owl-nav {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+	transform: translateY(-45%);
+	font-size: 90pt;
+	color: white;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+	opacity: .6;
+	margin-left: 30px;
+}
+
+.owl-carousel .owl-nav .owl-next {
+	float: right;
+	opacity: .6;
+	margin-right: 30px;
+}
+
+.owl-dots {
+	display: none;
+}
