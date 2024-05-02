@@ -248,3 +248,27 @@ input[type="text"],input[type="password"],input[type="email"]{
 button[type="submit"]{
 	height:31px;
 }
+
+/*----------회원 가입 등록,수정,삭제 폼----------*/
+
+#member_register{
+	width:800px;
+}
+#member_register ul, #member_modify ul{
+	padding-left:120px;
+}
+#member_register ul li label{
+	padding-top:6px;
+}
+#member_register input[id="id"]{
+	width:236px;
+}
+#member_register input[id="zipcode"], #member_modify input[id="zipcode"]{
+	width:220px;
+}
+#member_modify{
+	width:96%;
+}
+#member_delete input[id="id"], #member_delete input[id="passwd"]{
+	width:240px;
+}
