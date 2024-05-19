@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import kr.spring.member.service.MemberService;
+import kr.spring.member.service.UserSha256;
 import kr.spring.member.vo.MemberVO;
 
 @Controller
@@ -44,6 +45,8 @@ public class MemberController {
 		if(result.hasErrors()) {
 			return form();
 		}
+		String encryPassword = UserSha256.encrypt(memberVO.getPasswd());
+		memberVO.setPasswd(encryPassword);
 		
 		//회원가입
 		memberService.insertMember(memberVO);
@@ -52,6 +55,5 @@ public class MemberController {
 		
 		return "common/notice";
 	}
-
 
 }
